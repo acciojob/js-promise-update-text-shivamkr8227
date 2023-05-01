@@ -20,5 +20,4 @@ let protrue=(messsage)=>{
 let profalse=(error)=>{
 	console.log(error);
 }
-prom(true).then(protrue);
-prom(true).catch(profalse);
+prom(true).then(protrue).catch(profalse);
