@@ -5,7 +5,7 @@ function sayhello(comp){
 		setTimeout(()=>{
 			if(comp)
 			{
-				resolve("Hello world");
+				resolve("Hello, world!");
 			}
 			else{
 				reject("Error");
