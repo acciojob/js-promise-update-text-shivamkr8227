@@ -20,4 +20,4 @@ let protrue=(messsage)=>{
 let profalse=(error)=>{
 	console.log(error);
 }
-prom(true).then(protrue).catch(profalse);
+sayhello(true).then(protrue).catch(profalse);
