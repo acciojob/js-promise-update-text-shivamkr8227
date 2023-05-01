@@ -14,10 +14,11 @@ function sayhello(comp){
 	});
 }
 const outpt=document.getElementById("output");
-sayhello()
-	.then((message)=>{
+let protrue=(messsage)=>{
 	outpt.textContent=message;
-});
-.catch((error)=>{
+}
+let profalse=(error)=>{
 	console.log(error);
-});
+}
+prom(true).then(protrue);
+prom(true).catch(profalse);
