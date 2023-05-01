@@ -1,7 +1,7 @@
 //your JS code here. If required.
 
 function sayhello(comp){
-	return new promise((resolve,reject)=>{
+	return new Promise((resolve,reject)=>{
 		setTimeout(()=>{
 			if(comp)
 			{
